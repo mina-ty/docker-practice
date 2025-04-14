@@ -1,0 +1,8 @@
+services:
+  my-container:
+    image: iss-test
+    container_name: iss-test
+    volumes:
+      - type: bind
+        source: /workspaces/docker-practice/class-04-14/data
+        target: /data
